@@ -1,0 +1,82 @@
+$TYPOGRAPHY_BACKGROUNDS: ('light', 'dark', 'primary');
+
+$TYPOGRAPHY_CONF: (
+  heading-1: (
+    component: 'h1',
+  ),
+  heading-2: (
+    component: 'h2',
+  ),
+  heading-3: (
+    component: 'h3',
+  ),
+  heading-4: (
+    component: 'h4',
+  ),
+  heading-5: (
+    component: 'h5',
+  ),
+  heading-6: (
+    component: 'h6',
+    types: (
+      'default',
+      'primary',
+      'light',
+    ),
+  ),
+  subtitle-1: (
+    types: (
+      'default',
+      'primary',
+      'light',
+    ),
+  ),
+  subtitle-2: (
+    types: (
+      'default',
+      'primary',
+      'light',
+    ),
+  ),
+  introtext: (),
+  body-1: (
+    types: (
+      'default',
+      'primary',
+      'light',
+      'muted',
+    ),
+    font-family: var(--font-ui),
+  ),
+  body-2: (
+    types: (
+      'default',
+      'primary',
+      'light',
+    ),
+    font-family: var(--font-ui),
+  ),
+  microcopy: (
+    types: (
+      'default',
+      'primary',
+      'error',
+      'muted',
+    ),
+    font-family: var(--font-ui),
+  ),
+  label: (
+    font-family: var(--font-ui),
+  ),
+  button: (
+    types: (
+      'default',
+      'hover',
+      'pressed',
+      'muted',
+      'focussed',
+      'active',
+    ),
+    font-family: var(--font-ui),
+  ),
+);

@@ -1,0 +1,114 @@
+/**
+ * @prop --wrapper-max-height:  maximum height of the scroll wrapper    Default: auto
+ * @prop --wrapper-max-width:   maximum width of the scroll wrapper     Default: 100%
+ * @prop --wrapper-margin:      inline margin of the scroll wrapper     Default: 0
+ */
+
+:host {
+  --wrapper-max-height: auto;
+  --wrapper-max-width: 100%;
+  --wrapper-margin: 0;
+  --scroll-track-color: transparent;
+  --scroll-thumb-color: transparent;
+  --scroll-thumb-border-color: transparent;
+
+  display: block;
+  margin: var(--wrapper-margin);
+  max-height: var(--wrapper-max-height);
+  max-width: var(--wrapper-max-width);
+  overflow: auto;
+  padding-right: var(--size-spacing-1);
+
+  &.scroll-wrapper {
+    scrollbar-gutter: stable;
+
+    // The scroll bar styling (Firefox)
+    scrollbar-color: var(--scroll-track-color) var(--scroll-thumb-color);
+    scrollbar-width: auto;
+
+    &--small {
+      scrollbar-width: thin;
+    }
+
+    // The scroll bar pseudo-elements (Webkit)
+    &::-webkit-scrollbar {
+      height: var(--size-spacing-1);
+      width: var(--size-spacing-1);
+    }
+
+    &--small {
+      &:not(.scroll-wrapper--show-track) {
+        &::-webkit-scrollbar {
+          height: var(--size-spacing-half);
+          width: var(--size-spacing-half);
+        }
+
+        &::-webkit-scrollbar-track {
+          height: var(--size-spacing-half);
+          width: var(--size-spacing-half);
+        }
+
+        &::-webkit-scrollbar-thumb {
+          border-width: 0;
+          width: var(--size-spacing-half);
+        }
+      }
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: var(--scroll-track-color);
+      border-radius: var(--size-radius-interactive-large);
+      height: var(--size-spacing-1);
+      width: var(--size-spacing-1);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--scroll-thumb-color);
+      border-color: var(--scroll-thumb-border-color);
+      border-radius: var(--size-radius-interactive-large);
+      border-style: solid;
+      border-width: var(--size-spacing-quarter);
+      width: var(--size-spacing-1);
+    }
+
+    // Colouring the track and thumb.
+    &:hover {
+      --scroll-track-color: transparent;
+      --scroll-thumb-color: var(--color-neutral-200);
+      --scroll-thumb-border-color: var(--color-neutral-200);
+
+      &.scroll-wrapper {
+        &--small {
+          --scroll-thumb-border-color: var(--color-neutral-100);
+
+          &.scroll-wrapper--show-track {
+            --scroll-thumb-border-color: var(--color-neutral-100);
+          }
+        }
+
+        &--show-track {
+          --scroll-track-color: var(--color-neutral-100);
+        }
+      }
+    }
+
+    &::-webkit-scrollbar-track:hover {
+      --scroll-track-color: var(--color-neutral-100);
+    }
+
+    &--persistent {
+      --scroll-thumb-color: var(--color-neutral-200);
+      --scroll-thumb-border-color: var(--color-neutral-200);
+
+      &.scroll-wrapper {
+        &--small {
+          --scroll-thumb-border-color: var(--color-neutral-100);
+        }
+
+        &--show-track {
+          --scroll-track-color: var(--color-neutral-100);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+/**
+ * @prop --icon-size:     width and height of the icon    Default: var(--size-spacing-3)
+ * @prop --icon-color:    color of the icon               Default: currentColor
+ */
+
+:host {
+  --icon-size: var(--size-spacing-3);
+  --icon-color: currentColor;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  svg {
+    height: var(--icon-size);
+    width: var(--icon-size);
+    fill: var(--icon-color);
+
+    use {
+      fill: var(--icon-color);
+    }
+  }
+
+  slot-fb {
+    width: var(--icon-size);
+    height: var(--icon-size);
+  }
+}

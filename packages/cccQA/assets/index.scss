@@ -1,0 +1,8 @@
+@import './CONF.scss';
+@import './typography.scss';
+
+@each $variant, $settings in $TYPOGRAPHY_CONF {
+  @include useTypography($variant);
+}
+
+@include useTypographyUtilities();

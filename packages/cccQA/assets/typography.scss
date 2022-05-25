@@ -1,0 +1,66 @@
+@import './CONF.scss';
+
+@mixin useTypography($variant) {
+  $VARIANT_CONF: map-get($TYPOGRAPHY_CONF, $variant);
+
+  $font-family: map-get($VARIANT_CONF, 'font-family');
+  $component: map-get($VARIANT_CONF, 'component');
+  $types: map-get($VARIANT_CONF, 'types');
+
+  .#{$variant},
+  #{$component} {
+    @if $font-family {
+      font-family: $font-family;
+    } @else {
+      font-family: var(--font-brand);
+    }
+
+    font-size: var(--size-#{$variant});
+    line-height: var(--line-height-#{$variant});
+
+    @if ($types) {
+      font-weight: var(--weight-onlight-#{$variant}-default);
+      font-variation-settings: 'wght' var(--weight-onlight-#{$variant}-default);
+      color: var(--color-onlight-#{$variant}-default);
+    } @else {
+      font-weight: var(--weight-onlight-#{$variant});
+      font-variation-settings: 'wght' var(--weight-onlight-#{$variant});
+      color: var(--color-onlight-#{$variant});
+    }
+
+    /* Generate font-weight and color values for each background and for each type. */
+    @each $on in $TYPOGRAPHY_BACKGROUNDS {
+      &.on#{$on} {
+        @if ($types) {
+          font-weight: var(--weight-on#{$on}-#{$variant}-default);
+          font-variation-settings: 'wght' var(--weight-on#{$on}-#{$variant}-default);
+          color: var(--color-on#{$on}-#{$variant}-default);
+          @each $type in $types {
+            &.#{$type} {
+              font-weight: var(--weight-on#{$on}-#{$variant}-#{$type});
+              font-variation-settings: 'wght' var(--weight-on#{$on}-#{$variant}-#{$type});
+              color: var(--color-on#{$on}-#{$variant}-#{$type});
+            }
+          }
+        } @else {
+          font-weight: var(--weight-on#{$on}-#{$variant});
+          font-variation-settings: 'wght' var(--weight-on#{$on}-#{$variant});
+          color: var(--color-on#{$on}-#{$variant});
+        }
+      }
+    }
+  }
+}
+
+@mixin useTypographyUtilities() {
+  .noWrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .gutterBottom {
+    display: block;
+    margin-bottom: var(--size-spacing-2);
+  }
+}

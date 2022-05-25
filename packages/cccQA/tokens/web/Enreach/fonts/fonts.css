@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Halvar-Eng-Bold';
+  src: url('halvar-engschrift-regular-webfont.woff2') format('woff2'),
+    url('halvar-engschrift-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maax-Regular';
+  src: url('maax_-_regular-205tf-webfont.woff2') format('woff2'),
+    url('maax_-_regular-205tf-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maax-Regular';
+  src: url('Maax - Medium-205TF.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maax-Regular';
+  src: url('Maax - Bold-205TF.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

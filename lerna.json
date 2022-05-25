@@ -1,0 +1,19 @@
+{
+  "npmClient": "yarn",
+  "version": "independent",
+
+  "command": {
+    "bootstrap": {
+      "ignore": [
+        "@enreach/core-component-library-angular"
+      ]
+    },
+    "version": {
+      "allowBranch": "master",
+      "conventionalCommits": true
+    }
+  },
+  "ignoreChanges": [
+    "**/test/**"
+  ]
+}

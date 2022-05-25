@@ -1,0 +1,41 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "importHelpers": false,
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "lib": [
+      "dom",
+      "es2017",
+      "DOM.Iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es2017"
+  },
+  "include": [
+    "src",
+    "stencil.config.ts"
+  ],
+  "exclude": [
+    "bin",
+    "node_modules"
+  ]
+}

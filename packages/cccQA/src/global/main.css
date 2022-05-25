@@ -1,0 +1,783 @@
+.heading-1,
+h1 {
+  font-family: var(--font-brand);
+  font-size: var(--size-heading-1);
+  line-height: var(--line-height-heading-1);
+  font-weight: var(--weight-onlight-heading-1);
+  font-variation-settings: "wght" var(--weight-onlight-heading-1);
+  color: var(--color-onlight-heading-1);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.heading-1.onlight,
+h1.onlight {
+  font-weight: var(--weight-onlight-heading-1);
+  font-variation-settings: "wght" var(--weight-onlight-heading-1);
+  color: var(--color-onlight-heading-1);
+}
+.heading-1.ondark,
+h1.ondark {
+  font-weight: var(--weight-ondark-heading-1);
+  font-variation-settings: "wght" var(--weight-ondark-heading-1);
+  color: var(--color-ondark-heading-1);
+}
+.heading-1.onprimary,
+h1.onprimary {
+  font-weight: var(--weight-onprimary-heading-1);
+  font-variation-settings: "wght" var(--weight-onprimary-heading-1);
+  color: var(--color-onprimary-heading-1);
+}
+
+.heading-2,
+h2 {
+  font-family: var(--font-brand);
+  font-size: var(--size-heading-2);
+  line-height: var(--line-height-heading-2);
+  font-weight: var(--weight-onlight-heading-2);
+  font-variation-settings: "wght" var(--weight-onlight-heading-2);
+  color: var(--color-onlight-heading-2);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.heading-2.onlight,
+h2.onlight {
+  font-weight: var(--weight-onlight-heading-2);
+  font-variation-settings: "wght" var(--weight-onlight-heading-2);
+  color: var(--color-onlight-heading-2);
+}
+.heading-2.ondark,
+h2.ondark {
+  font-weight: var(--weight-ondark-heading-2);
+  font-variation-settings: "wght" var(--weight-ondark-heading-2);
+  color: var(--color-ondark-heading-2);
+}
+.heading-2.onprimary,
+h2.onprimary {
+  font-weight: var(--weight-onprimary-heading-2);
+  font-variation-settings: "wght" var(--weight-onprimary-heading-2);
+  color: var(--color-onprimary-heading-2);
+}
+
+.heading-3,
+h3 {
+  font-family: var(--font-brand);
+  font-size: var(--size-heading-3);
+  line-height: var(--line-height-heading-3);
+  font-weight: var(--weight-onlight-heading-3);
+  font-variation-settings: "wght" var(--weight-onlight-heading-3);
+  color: var(--color-onlight-heading-3);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.heading-3.onlight,
+h3.onlight {
+  font-weight: var(--weight-onlight-heading-3);
+  font-variation-settings: "wght" var(--weight-onlight-heading-3);
+  color: var(--color-onlight-heading-3);
+}
+.heading-3.ondark,
+h3.ondark {
+  font-weight: var(--weight-ondark-heading-3);
+  font-variation-settings: "wght" var(--weight-ondark-heading-3);
+  color: var(--color-ondark-heading-3);
+}
+.heading-3.onprimary,
+h3.onprimary {
+  font-weight: var(--weight-onprimary-heading-3);
+  font-variation-settings: "wght" var(--weight-onprimary-heading-3);
+  color: var(--color-onprimary-heading-3);
+}
+
+.heading-4,
+h4 {
+  font-family: var(--font-brand);
+  font-size: var(--size-heading-4);
+  line-height: var(--line-height-heading-4);
+  font-weight: var(--weight-onlight-heading-4);
+  font-variation-settings: "wght" var(--weight-onlight-heading-4);
+  color: var(--color-onlight-heading-4);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.heading-4.onlight,
+h4.onlight {
+  font-weight: var(--weight-onlight-heading-4);
+  font-variation-settings: "wght" var(--weight-onlight-heading-4);
+  color: var(--color-onlight-heading-4);
+}
+.heading-4.ondark,
+h4.ondark {
+  font-weight: var(--weight-ondark-heading-4);
+  font-variation-settings: "wght" var(--weight-ondark-heading-4);
+  color: var(--color-ondark-heading-4);
+}
+.heading-4.onprimary,
+h4.onprimary {
+  font-weight: var(--weight-onprimary-heading-4);
+  font-variation-settings: "wght" var(--weight-onprimary-heading-4);
+  color: var(--color-onprimary-heading-4);
+}
+
+.heading-5,
+h5 {
+  font-family: var(--font-brand);
+  font-size: var(--size-heading-5);
+  line-height: var(--line-height-heading-5);
+  font-weight: var(--weight-onlight-heading-5);
+  font-variation-settings: "wght" var(--weight-onlight-heading-5);
+  color: var(--color-onlight-heading-5);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.heading-5.onlight,
+h5.onlight {
+  font-weight: var(--weight-onlight-heading-5);
+  font-variation-settings: "wght" var(--weight-onlight-heading-5);
+  color: var(--color-onlight-heading-5);
+}
+.heading-5.ondark,
+h5.ondark {
+  font-weight: var(--weight-ondark-heading-5);
+  font-variation-settings: "wght" var(--weight-ondark-heading-5);
+  color: var(--color-ondark-heading-5);
+}
+.heading-5.onprimary,
+h5.onprimary {
+  font-weight: var(--weight-onprimary-heading-5);
+  font-variation-settings: "wght" var(--weight-onprimary-heading-5);
+  color: var(--color-onprimary-heading-5);
+}
+
+.heading-6,
+h6 {
+  font-family: var(--font-brand);
+  font-size: var(--size-heading-6);
+  line-height: var(--line-height-heading-6);
+  font-weight: var(--weight-onlight-heading-6-default);
+  font-variation-settings: "wght" var(--weight-onlight-heading-6-default);
+  color: var(--color-onlight-heading-6-default);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.heading-6.onlight,
+h6.onlight {
+  font-weight: var(--weight-onlight-heading-6-default);
+  font-variation-settings: "wght" var(--weight-onlight-heading-6-default);
+  color: var(--color-onlight-heading-6-default);
+}
+.heading-6.onlight.default,
+h6.onlight.default {
+  font-weight: var(--weight-onlight-heading-6-default);
+  font-variation-settings: "wght" var(--weight-onlight-heading-6-default);
+  color: var(--color-onlight-heading-6-default);
+}
+.heading-6.onlight.primary,
+h6.onlight.primary {
+  font-weight: var(--weight-onlight-heading-6-primary);
+  font-variation-settings: "wght" var(--weight-onlight-heading-6-primary);
+  color: var(--color-onlight-heading-6-primary);
+}
+.heading-6.onlight.light,
+h6.onlight.light {
+  font-weight: var(--weight-onlight-heading-6-light);
+  font-variation-settings: "wght" var(--weight-onlight-heading-6-light);
+  color: var(--color-onlight-heading-6-light);
+}
+.heading-6.ondark,
+h6.ondark {
+  font-weight: var(--weight-ondark-heading-6-default);
+  font-variation-settings: "wght" var(--weight-ondark-heading-6-default);
+  color: var(--color-ondark-heading-6-default);
+}
+.heading-6.ondark.default,
+h6.ondark.default {
+  font-weight: var(--weight-ondark-heading-6-default);
+  font-variation-settings: "wght" var(--weight-ondark-heading-6-default);
+  color: var(--color-ondark-heading-6-default);
+}
+.heading-6.ondark.primary,
+h6.ondark.primary {
+  font-weight: var(--weight-ondark-heading-6-primary);
+  font-variation-settings: "wght" var(--weight-ondark-heading-6-primary);
+  color: var(--color-ondark-heading-6-primary);
+}
+.heading-6.ondark.light,
+h6.ondark.light {
+  font-weight: var(--weight-ondark-heading-6-light);
+  font-variation-settings: "wght" var(--weight-ondark-heading-6-light);
+  color: var(--color-ondark-heading-6-light);
+}
+.heading-6.onprimary,
+h6.onprimary {
+  font-weight: var(--weight-onprimary-heading-6-default);
+  font-variation-settings: "wght" var(--weight-onprimary-heading-6-default);
+  color: var(--color-onprimary-heading-6-default);
+}
+.heading-6.onprimary.default,
+h6.onprimary.default {
+  font-weight: var(--weight-onprimary-heading-6-default);
+  font-variation-settings: "wght" var(--weight-onprimary-heading-6-default);
+  color: var(--color-onprimary-heading-6-default);
+}
+.heading-6.onprimary.primary,
+h6.onprimary.primary {
+  font-weight: var(--weight-onprimary-heading-6-primary);
+  font-variation-settings: "wght" var(--weight-onprimary-heading-6-primary);
+  color: var(--color-onprimary-heading-6-primary);
+}
+.heading-6.onprimary.light,
+h6.onprimary.light {
+  font-weight: var(--weight-onprimary-heading-6-light);
+  font-variation-settings: "wght" var(--weight-onprimary-heading-6-light);
+  color: var(--color-onprimary-heading-6-light);
+}
+
+.subtitle-1 {
+  font-family: var(--font-brand);
+  font-size: var(--size-subtitle-1);
+  line-height: var(--line-height-subtitle-1);
+  font-weight: var(--weight-onlight-subtitle-1-default);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-1-default);
+  color: var(--color-onlight-subtitle-1-default);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.subtitle-1.onlight {
+  font-weight: var(--weight-onlight-subtitle-1-default);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-1-default);
+  color: var(--color-onlight-subtitle-1-default);
+}
+.subtitle-1.onlight.default {
+  font-weight: var(--weight-onlight-subtitle-1-default);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-1-default);
+  color: var(--color-onlight-subtitle-1-default);
+}
+.subtitle-1.onlight.primary {
+  font-weight: var(--weight-onlight-subtitle-1-primary);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-1-primary);
+  color: var(--color-onlight-subtitle-1-primary);
+}
+.subtitle-1.onlight.light {
+  font-weight: var(--weight-onlight-subtitle-1-light);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-1-light);
+  color: var(--color-onlight-subtitle-1-light);
+}
+.subtitle-1.ondark {
+  font-weight: var(--weight-ondark-subtitle-1-default);
+  font-variation-settings: "wght" var(--weight-ondark-subtitle-1-default);
+  color: var(--color-ondark-subtitle-1-default);
+}
+.subtitle-1.ondark.default {
+  font-weight: var(--weight-ondark-subtitle-1-default);
+  font-variation-settings: "wght" var(--weight-ondark-subtitle-1-default);
+  color: var(--color-ondark-subtitle-1-default);
+}
+.subtitle-1.ondark.primary {
+  font-weight: var(--weight-ondark-subtitle-1-primary);
+  font-variation-settings: "wght" var(--weight-ondark-subtitle-1-primary);
+  color: var(--color-ondark-subtitle-1-primary);
+}
+.subtitle-1.ondark.light {
+  font-weight: var(--weight-ondark-subtitle-1-light);
+  font-variation-settings: "wght" var(--weight-ondark-subtitle-1-light);
+  color: var(--color-ondark-subtitle-1-light);
+}
+.subtitle-1.onprimary {
+  font-weight: var(--weight-onprimary-subtitle-1-default);
+  font-variation-settings: "wght" var(--weight-onprimary-subtitle-1-default);
+  color: var(--color-onprimary-subtitle-1-default);
+}
+.subtitle-1.onprimary.default {
+  font-weight: var(--weight-onprimary-subtitle-1-default);
+  font-variation-settings: "wght" var(--weight-onprimary-subtitle-1-default);
+  color: var(--color-onprimary-subtitle-1-default);
+}
+.subtitle-1.onprimary.primary {
+  font-weight: var(--weight-onprimary-subtitle-1-primary);
+  font-variation-settings: "wght" var(--weight-onprimary-subtitle-1-primary);
+  color: var(--color-onprimary-subtitle-1-primary);
+}
+.subtitle-1.onprimary.light {
+  font-weight: var(--weight-onprimary-subtitle-1-light);
+  font-variation-settings: "wght" var(--weight-onprimary-subtitle-1-light);
+  color: var(--color-onprimary-subtitle-1-light);
+}
+
+.subtitle-2 {
+  font-family: var(--font-brand);
+  font-size: var(--size-subtitle-2);
+  line-height: var(--line-height-subtitle-2);
+  font-weight: var(--weight-onlight-subtitle-2-default);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-2-default);
+  color: var(--color-onlight-subtitle-2-default);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.subtitle-2.onlight {
+  font-weight: var(--weight-onlight-subtitle-2-default);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-2-default);
+  color: var(--color-onlight-subtitle-2-default);
+}
+.subtitle-2.onlight.default {
+  font-weight: var(--weight-onlight-subtitle-2-default);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-2-default);
+  color: var(--color-onlight-subtitle-2-default);
+}
+.subtitle-2.onlight.primary {
+  font-weight: var(--weight-onlight-subtitle-2-primary);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-2-primary);
+  color: var(--color-onlight-subtitle-2-primary);
+}
+.subtitle-2.onlight.light {
+  font-weight: var(--weight-onlight-subtitle-2-light);
+  font-variation-settings: "wght" var(--weight-onlight-subtitle-2-light);
+  color: var(--color-onlight-subtitle-2-light);
+}
+.subtitle-2.ondark {
+  font-weight: var(--weight-ondark-subtitle-2-default);
+  font-variation-settings: "wght" var(--weight-ondark-subtitle-2-default);
+  color: var(--color-ondark-subtitle-2-default);
+}
+.subtitle-2.ondark.default {
+  font-weight: var(--weight-ondark-subtitle-2-default);
+  font-variation-settings: "wght" var(--weight-ondark-subtitle-2-default);
+  color: var(--color-ondark-subtitle-2-default);
+}
+.subtitle-2.ondark.primary {
+  font-weight: var(--weight-ondark-subtitle-2-primary);
+  font-variation-settings: "wght" var(--weight-ondark-subtitle-2-primary);
+  color: var(--color-ondark-subtitle-2-primary);
+}
+.subtitle-2.ondark.light {
+  font-weight: var(--weight-ondark-subtitle-2-light);
+  font-variation-settings: "wght" var(--weight-ondark-subtitle-2-light);
+  color: var(--color-ondark-subtitle-2-light);
+}
+.subtitle-2.onprimary {
+  font-weight: var(--weight-onprimary-subtitle-2-default);
+  font-variation-settings: "wght" var(--weight-onprimary-subtitle-2-default);
+  color: var(--color-onprimary-subtitle-2-default);
+}
+.subtitle-2.onprimary.default {
+  font-weight: var(--weight-onprimary-subtitle-2-default);
+  font-variation-settings: "wght" var(--weight-onprimary-subtitle-2-default);
+  color: var(--color-onprimary-subtitle-2-default);
+}
+.subtitle-2.onprimary.primary {
+  font-weight: var(--weight-onprimary-subtitle-2-primary);
+  font-variation-settings: "wght" var(--weight-onprimary-subtitle-2-primary);
+  color: var(--color-onprimary-subtitle-2-primary);
+}
+.subtitle-2.onprimary.light {
+  font-weight: var(--weight-onprimary-subtitle-2-light);
+  font-variation-settings: "wght" var(--weight-onprimary-subtitle-2-light);
+  color: var(--color-onprimary-subtitle-2-light);
+}
+
+.introtext {
+  font-family: var(--font-brand);
+  font-size: var(--size-introtext);
+  line-height: var(--line-height-introtext);
+  font-weight: var(--weight-onlight-introtext);
+  font-variation-settings: "wght" var(--weight-onlight-introtext);
+  color: var(--color-onlight-introtext);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.introtext.onlight {
+  font-weight: var(--weight-onlight-introtext);
+  font-variation-settings: "wght" var(--weight-onlight-introtext);
+  color: var(--color-onlight-introtext);
+}
+.introtext.ondark {
+  font-weight: var(--weight-ondark-introtext);
+  font-variation-settings: "wght" var(--weight-ondark-introtext);
+  color: var(--color-ondark-introtext);
+}
+.introtext.onprimary {
+  font-weight: var(--weight-onprimary-introtext);
+  font-variation-settings: "wght" var(--weight-onprimary-introtext);
+  color: var(--color-onprimary-introtext);
+}
+
+.body-1 {
+  font-family: var(--font-ui);
+  font-size: var(--size-body-1);
+  line-height: var(--line-height-body-1);
+  font-weight: var(--weight-onlight-body-1-default);
+  font-variation-settings: "wght" var(--weight-onlight-body-1-default);
+  color: var(--color-onlight-body-1-default);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.body-1.onlight {
+  font-weight: var(--weight-onlight-body-1-default);
+  font-variation-settings: "wght" var(--weight-onlight-body-1-default);
+  color: var(--color-onlight-body-1-default);
+}
+.body-1.onlight.default {
+  font-weight: var(--weight-onlight-body-1-default);
+  font-variation-settings: "wght" var(--weight-onlight-body-1-default);
+  color: var(--color-onlight-body-1-default);
+}
+.body-1.onlight.primary {
+  font-weight: var(--weight-onlight-body-1-primary);
+  font-variation-settings: "wght" var(--weight-onlight-body-1-primary);
+  color: var(--color-onlight-body-1-primary);
+}
+.body-1.onlight.light {
+  font-weight: var(--weight-onlight-body-1-light);
+  font-variation-settings: "wght" var(--weight-onlight-body-1-light);
+  color: var(--color-onlight-body-1-light);
+}
+.body-1.onlight.muted {
+  font-weight: var(--weight-onlight-body-1-muted);
+  font-variation-settings: "wght" var(--weight-onlight-body-1-muted);
+  color: var(--color-onlight-body-1-muted);
+}
+.body-1.ondark {
+  font-weight: var(--weight-ondark-body-1-default);
+  font-variation-settings: "wght" var(--weight-ondark-body-1-default);
+  color: var(--color-ondark-body-1-default);
+}
+.body-1.ondark.default {
+  font-weight: var(--weight-ondark-body-1-default);
+  font-variation-settings: "wght" var(--weight-ondark-body-1-default);
+  color: var(--color-ondark-body-1-default);
+}
+.body-1.ondark.primary {
+  font-weight: var(--weight-ondark-body-1-primary);
+  font-variation-settings: "wght" var(--weight-ondark-body-1-primary);
+  color: var(--color-ondark-body-1-primary);
+}
+.body-1.ondark.light {
+  font-weight: var(--weight-ondark-body-1-light);
+  font-variation-settings: "wght" var(--weight-ondark-body-1-light);
+  color: var(--color-ondark-body-1-light);
+}
+.body-1.ondark.muted {
+  font-weight: var(--weight-ondark-body-1-muted);
+  font-variation-settings: "wght" var(--weight-ondark-body-1-muted);
+  color: var(--color-ondark-body-1-muted);
+}
+.body-1.onprimary {
+  font-weight: var(--weight-onprimary-body-1-default);
+  font-variation-settings: "wght" var(--weight-onprimary-body-1-default);
+  color: var(--color-onprimary-body-1-default);
+}
+.body-1.onprimary.default {
+  font-weight: var(--weight-onprimary-body-1-default);
+  font-variation-settings: "wght" var(--weight-onprimary-body-1-default);
+  color: var(--color-onprimary-body-1-default);
+}
+.body-1.onprimary.primary {
+  font-weight: var(--weight-onprimary-body-1-primary);
+  font-variation-settings: "wght" var(--weight-onprimary-body-1-primary);
+  color: var(--color-onprimary-body-1-primary);
+}
+.body-1.onprimary.light {
+  font-weight: var(--weight-onprimary-body-1-light);
+  font-variation-settings: "wght" var(--weight-onprimary-body-1-light);
+  color: var(--color-onprimary-body-1-light);
+}
+.body-1.onprimary.muted {
+  font-weight: var(--weight-onprimary-body-1-muted);
+  font-variation-settings: "wght" var(--weight-onprimary-body-1-muted);
+  color: var(--color-onprimary-body-1-muted);
+}
+
+.body-2 {
+  font-family: var(--font-ui);
+  font-size: var(--size-body-2);
+  line-height: var(--line-height-body-2);
+  font-weight: var(--weight-onlight-body-2-default);
+  font-variation-settings: "wght" var(--weight-onlight-body-2-default);
+  color: var(--color-onlight-body-2-default);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.body-2.onlight {
+  font-weight: var(--weight-onlight-body-2-default);
+  font-variation-settings: "wght" var(--weight-onlight-body-2-default);
+  color: var(--color-onlight-body-2-default);
+}
+.body-2.onlight.default {
+  font-weight: var(--weight-onlight-body-2-default);
+  font-variation-settings: "wght" var(--weight-onlight-body-2-default);
+  color: var(--color-onlight-body-2-default);
+}
+.body-2.onlight.primary {
+  font-weight: var(--weight-onlight-body-2-primary);
+  font-variation-settings: "wght" var(--weight-onlight-body-2-primary);
+  color: var(--color-onlight-body-2-primary);
+}
+.body-2.onlight.light {
+  font-weight: var(--weight-onlight-body-2-light);
+  font-variation-settings: "wght" var(--weight-onlight-body-2-light);
+  color: var(--color-onlight-body-2-light);
+}
+.body-2.ondark {
+  font-weight: var(--weight-ondark-body-2-default);
+  font-variation-settings: "wght" var(--weight-ondark-body-2-default);
+  color: var(--color-ondark-body-2-default);
+}
+.body-2.ondark.default {
+  font-weight: var(--weight-ondark-body-2-default);
+  font-variation-settings: "wght" var(--weight-ondark-body-2-default);
+  color: var(--color-ondark-body-2-default);
+}
+.body-2.ondark.primary {
+  font-weight: var(--weight-ondark-body-2-primary);
+  font-variation-settings: "wght" var(--weight-ondark-body-2-primary);
+  color: var(--color-ondark-body-2-primary);
+}
+.body-2.ondark.light {
+  font-weight: var(--weight-ondark-body-2-light);
+  font-variation-settings: "wght" var(--weight-ondark-body-2-light);
+  color: var(--color-ondark-body-2-light);
+}
+.body-2.onprimary {
+  font-weight: var(--weight-onprimary-body-2-default);
+  font-variation-settings: "wght" var(--weight-onprimary-body-2-default);
+  color: var(--color-onprimary-body-2-default);
+}
+.body-2.onprimary.default {
+  font-weight: var(--weight-onprimary-body-2-default);
+  font-variation-settings: "wght" var(--weight-onprimary-body-2-default);
+  color: var(--color-onprimary-body-2-default);
+}
+.body-2.onprimary.primary {
+  font-weight: var(--weight-onprimary-body-2-primary);
+  font-variation-settings: "wght" var(--weight-onprimary-body-2-primary);
+  color: var(--color-onprimary-body-2-primary);
+}
+.body-2.onprimary.light {
+  font-weight: var(--weight-onprimary-body-2-light);
+  font-variation-settings: "wght" var(--weight-onprimary-body-2-light);
+  color: var(--color-onprimary-body-2-light);
+}
+
+.microcopy {
+  font-family: var(--font-ui);
+  font-size: var(--size-microcopy);
+  line-height: var(--line-height-microcopy);
+  font-weight: var(--weight-onlight-microcopy-default);
+  font-variation-settings: "wght" var(--weight-onlight-microcopy-default);
+  color: var(--color-onlight-microcopy-default);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.microcopy.onlight {
+  font-weight: var(--weight-onlight-microcopy-default);
+  font-variation-settings: "wght" var(--weight-onlight-microcopy-default);
+  color: var(--color-onlight-microcopy-default);
+}
+.microcopy.onlight.default {
+  font-weight: var(--weight-onlight-microcopy-default);
+  font-variation-settings: "wght" var(--weight-onlight-microcopy-default);
+  color: var(--color-onlight-microcopy-default);
+}
+.microcopy.onlight.primary {
+  font-weight: var(--weight-onlight-microcopy-primary);
+  font-variation-settings: "wght" var(--weight-onlight-microcopy-primary);
+  color: var(--color-onlight-microcopy-primary);
+}
+.microcopy.onlight.error {
+  font-weight: var(--weight-onlight-microcopy-error);
+  font-variation-settings: "wght" var(--weight-onlight-microcopy-error);
+  color: var(--color-onlight-microcopy-error);
+}
+.microcopy.onlight.muted {
+  font-weight: var(--weight-onlight-microcopy-muted);
+  font-variation-settings: "wght" var(--weight-onlight-microcopy-muted);
+  color: var(--color-onlight-microcopy-muted);
+}
+.microcopy.ondark {
+  font-weight: var(--weight-ondark-microcopy-default);
+  font-variation-settings: "wght" var(--weight-ondark-microcopy-default);
+  color: var(--color-ondark-microcopy-default);
+}
+.microcopy.ondark.default {
+  font-weight: var(--weight-ondark-microcopy-default);
+  font-variation-settings: "wght" var(--weight-ondark-microcopy-default);
+  color: var(--color-ondark-microcopy-default);
+}
+.microcopy.ondark.primary {
+  font-weight: var(--weight-ondark-microcopy-primary);
+  font-variation-settings: "wght" var(--weight-ondark-microcopy-primary);
+  color: var(--color-ondark-microcopy-primary);
+}
+.microcopy.ondark.error {
+  font-weight: var(--weight-ondark-microcopy-error);
+  font-variation-settings: "wght" var(--weight-ondark-microcopy-error);
+  color: var(--color-ondark-microcopy-error);
+}
+.microcopy.ondark.muted {
+  font-weight: var(--weight-ondark-microcopy-muted);
+  font-variation-settings: "wght" var(--weight-ondark-microcopy-muted);
+  color: var(--color-ondark-microcopy-muted);
+}
+.microcopy.onprimary {
+  font-weight: var(--weight-onprimary-microcopy-default);
+  font-variation-settings: "wght" var(--weight-onprimary-microcopy-default);
+  color: var(--color-onprimary-microcopy-default);
+}
+.microcopy.onprimary.default {
+  font-weight: var(--weight-onprimary-microcopy-default);
+  font-variation-settings: "wght" var(--weight-onprimary-microcopy-default);
+  color: var(--color-onprimary-microcopy-default);
+}
+.microcopy.onprimary.primary {
+  font-weight: var(--weight-onprimary-microcopy-primary);
+  font-variation-settings: "wght" var(--weight-onprimary-microcopy-primary);
+  color: var(--color-onprimary-microcopy-primary);
+}
+.microcopy.onprimary.error {
+  font-weight: var(--weight-onprimary-microcopy-error);
+  font-variation-settings: "wght" var(--weight-onprimary-microcopy-error);
+  color: var(--color-onprimary-microcopy-error);
+}
+.microcopy.onprimary.muted {
+  font-weight: var(--weight-onprimary-microcopy-muted);
+  font-variation-settings: "wght" var(--weight-onprimary-microcopy-muted);
+  color: var(--color-onprimary-microcopy-muted);
+}
+
+.label {
+  font-family: var(--font-ui);
+  font-size: var(--size-label);
+  line-height: var(--line-height-label);
+  font-weight: var(--weight-onlight-label);
+  font-variation-settings: "wght" var(--weight-onlight-label);
+  color: var(--color-onlight-label);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.label.onlight {
+  font-weight: var(--weight-onlight-label);
+  font-variation-settings: "wght" var(--weight-onlight-label);
+  color: var(--color-onlight-label);
+}
+.label.ondark {
+  font-weight: var(--weight-ondark-label);
+  font-variation-settings: "wght" var(--weight-ondark-label);
+  color: var(--color-ondark-label);
+}
+.label.onprimary {
+  font-weight: var(--weight-onprimary-label);
+  font-variation-settings: "wght" var(--weight-onprimary-label);
+  color: var(--color-onprimary-label);
+}
+
+.button {
+  font-family: var(--font-ui);
+  font-size: var(--size-button);
+  line-height: var(--line-height-button);
+  font-weight: var(--weight-onlight-button-default);
+  font-variation-settings: "wght" var(--weight-onlight-button-default);
+  color: var(--color-onlight-button-default);
+  /* Generate font-weight and color values for each background and for each type. */
+}
+.button.onlight {
+  font-weight: var(--weight-onlight-button-default);
+  font-variation-settings: "wght" var(--weight-onlight-button-default);
+  color: var(--color-onlight-button-default);
+}
+.button.onlight.default {
+  font-weight: var(--weight-onlight-button-default);
+  font-variation-settings: "wght" var(--weight-onlight-button-default);
+  color: var(--color-onlight-button-default);
+}
+.button.onlight.hover {
+  font-weight: var(--weight-onlight-button-hover);
+  font-variation-settings: "wght" var(--weight-onlight-button-hover);
+  color: var(--color-onlight-button-hover);
+}
+.button.onlight.pressed {
+  font-weight: var(--weight-onlight-button-pressed);
+  font-variation-settings: "wght" var(--weight-onlight-button-pressed);
+  color: var(--color-onlight-button-pressed);
+}
+.button.onlight.muted {
+  font-weight: var(--weight-onlight-button-muted);
+  font-variation-settings: "wght" var(--weight-onlight-button-muted);
+  color: var(--color-onlight-button-muted);
+}
+.button.onlight.focussed {
+  font-weight: var(--weight-onlight-button-focussed);
+  font-variation-settings: "wght" var(--weight-onlight-button-focussed);
+  color: var(--color-onlight-button-focussed);
+}
+.button.onlight.active {
+  font-weight: var(--weight-onlight-button-active);
+  font-variation-settings: "wght" var(--weight-onlight-button-active);
+  color: var(--color-onlight-button-active);
+}
+.button.ondark {
+  font-weight: var(--weight-ondark-button-default);
+  font-variation-settings: "wght" var(--weight-ondark-button-default);
+  color: var(--color-ondark-button-default);
+}
+.button.ondark.default {
+  font-weight: var(--weight-ondark-button-default);
+  font-variation-settings: "wght" var(--weight-ondark-button-default);
+  color: var(--color-ondark-button-default);
+}
+.button.ondark.hover {
+  font-weight: var(--weight-ondark-button-hover);
+  font-variation-settings: "wght" var(--weight-ondark-button-hover);
+  color: var(--color-ondark-button-hover);
+}
+.button.ondark.pressed {
+  font-weight: var(--weight-ondark-button-pressed);
+  font-variation-settings: "wght" var(--weight-ondark-button-pressed);
+  color: var(--color-ondark-button-pressed);
+}
+.button.ondark.muted {
+  font-weight: var(--weight-ondark-button-muted);
+  font-variation-settings: "wght" var(--weight-ondark-button-muted);
+  color: var(--color-ondark-button-muted);
+}
+.button.ondark.focussed {
+  font-weight: var(--weight-ondark-button-focussed);
+  font-variation-settings: "wght" var(--weight-ondark-button-focussed);
+  color: var(--color-ondark-button-focussed);
+}
+.button.ondark.active {
+  font-weight: var(--weight-ondark-button-active);
+  font-variation-settings: "wght" var(--weight-ondark-button-active);
+  color: var(--color-ondark-button-active);
+}
+.button.onprimary {
+  font-weight: var(--weight-onprimary-button-default);
+  font-variation-settings: "wght" var(--weight-onprimary-button-default);
+  color: var(--color-onprimary-button-default);
+}
+.button.onprimary.default {
+  font-weight: var(--weight-onprimary-button-default);
+  font-variation-settings: "wght" var(--weight-onprimary-button-default);
+  color: var(--color-onprimary-button-default);
+}
+.button.onprimary.hover {
+  font-weight: var(--weight-onprimary-button-hover);
+  font-variation-settings: "wght" var(--weight-onprimary-button-hover);
+  color: var(--color-onprimary-button-hover);
+}
+.button.onprimary.pressed {
+  font-weight: var(--weight-onprimary-button-pressed);
+  font-variation-settings: "wght" var(--weight-onprimary-button-pressed);
+  color: var(--color-onprimary-button-pressed);
+}
+.button.onprimary.muted {
+  font-weight: var(--weight-onprimary-button-muted);
+  font-variation-settings: "wght" var(--weight-onprimary-button-muted);
+  color: var(--color-onprimary-button-muted);
+}
+.button.onprimary.focussed {
+  font-weight: var(--weight-onprimary-button-focussed);
+  font-variation-settings: "wght" var(--weight-onprimary-button-focussed);
+  color: var(--color-onprimary-button-focussed);
+}
+.button.onprimary.active {
+  font-weight: var(--weight-onprimary-button-active);
+  font-variation-settings: "wght" var(--weight-onprimary-button-active);
+  color: var(--color-onprimary-button-active);
+}
+
+.noWrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gutterBottom {
+  display: block;
+  margin-bottom: var(--size-spacing-2);
+}

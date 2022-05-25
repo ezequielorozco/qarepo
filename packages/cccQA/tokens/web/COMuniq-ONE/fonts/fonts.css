@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source_Sans_Pro';
+  src: url('sourcesanspro-regular-webfont.woff2') format('woff2'),
+    url('sourcesanspro-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source_Sans_Pro';
+  src: url('SourceSansPro-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source_Sans_Pro';
+  src: url('SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

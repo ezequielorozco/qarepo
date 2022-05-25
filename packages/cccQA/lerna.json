@@ -1,0 +1,26 @@
+{
+  "npmClient": "yarn",
+  "version": "independent",
+  "packages": [
+    "ccl-documentation",
+    "packages/*",
+    "packages/core-component-library-angular/dist"
+  ],
+  "command": {
+    "bootstrap": {
+      "ignore": [
+        "@enreach/core-component-library-angular"
+      ]
+    },
+    "publish": {
+      "registry": "https://nexus.voiceworks.com/repository/npm-enreach-private/"
+    },
+    "version": {
+      "allowBranch": "master",
+      "conventionalCommits": true
+    }
+  },
+  "ignoreChanges": [
+    "**/test/**"
+  ]
+}

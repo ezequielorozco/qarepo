@@ -1,0 +1,64 @@
+{
+  "name": "cccqa",
+  "version": "1.0.0",
+  "description": "EDS QA Repo",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "collection:main": "dist/collection/index.js",
+  "collection": "dist/collection/collection-manifest.json",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/types/components.d.ts",
+  "unpkg": "dist/core-component-library.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build:static": "build-storybook",
+    "build": "run-p css:build stencil:build",
+    "css:build": "sass --no-source-map assets/index.scss src/global/main.css --load-path assets",
+    "css:start": "yarn css:build --watch",
+    "dev:start": "run-p css:start stencil:serve",
+    "dev": "run-s build start",
+    "e2e": "stencil test --e2e --screenshot",
+    "generate": "stencil generate",
+    "postbuild": "ts-node ./bin/post-build.ts",
+    "start": "run-p css:start stencil:start storybook:start",
+    "stencil:build": "stencil build --docs",
+    "stencil:serve": "yarn stencil:start --dev --serve",
+    "stencil:start": "yarn stencil:build --watch",
+    "storybook:start": "start-storybook -p 6006",
+    "test:coverage": "stencil test . --spec --e2e --coverage",
+    "test:watch": "stencil test --spec --e2e --watchAll --verbose",
+    "test": "stencil test --spec --verbose"
+  },
+  "dependencies": {
+    "@stencil/core": "^2.12.0",
+    "ts-node": "^10.8.0"
+  },
+  "devDependencies": {
+    "@babel/compat-data": "^7.17.0",
+    "@enreach/brand-library": "^0.15.0",
+    "@stencil/angular-output-target": "^0.4.0",
+    "@stencil/postcss": "^2.1.0",
+    "@stencil/react-output-target": "^0.3.1",
+    "@stencil/sass": "^1.5.2",
+    "@stencil/vue-output-target": "^0.6.0",
+    "@storybook/addon-essentials": "^6.5.5",
+    "@storybook/addon-links": "^6.5.5",
+    "@storybook/html": "^6.5.5",
+    "@storybook/react": "^6.5.5",
+    "@types/jest": "^26.0.21",
+    "autoprefixer": "^10.4.0",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.45.1"
+  }
+}

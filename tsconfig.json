@@ -1,0 +1,36 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "importHelpers": false,
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "esnext",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "utils"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}

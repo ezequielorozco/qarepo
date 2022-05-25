@@ -1,0 +1,269 @@
+@import '../../../assets/typography.scss';
+@include useTypography('body-1');
+
+/**
+ * @prop --button-background-color:   Button background color override     Default: undefined
+ * @prop --button-border-color:       Button border color override         Default: undefined
+ * @prop --button-color:              Button text and icon color override  Default: undefined
+ */
+
+//
+// Sizing
+//
+
+:host {
+  --background-color: var(--color-primary-main);
+  --border-color: var(--color-primary-main);
+  --color: var(--color-primary-main);
+
+  border-radius: var(--size-radius-interactive-large);
+  width: fit-content;
+  height: fit-content;
+
+  .button {
+    background-color: var(--button-background-color, var(--background-color));
+    border-color: var(--button-border-color, var(--border-color));
+    color: var(--button-color, var(--color));
+
+    p {
+      color: inherit;
+    }
+  }
+
+  //
+  // Colouring
+  //
+
+  .button {
+    &--primary {
+      --background-color: var(--color-primary-main);
+      --border-color: var(--color-neutral-alpha-0);
+      --color: var(--color-neutral-50);
+
+      &:hover {
+        --background-color: var(--color-primary-500);
+        --color: var(--color-primary-50);
+      }
+    }
+
+    &--secondary {
+      --background-color: var(--color-surface-main);
+      --border-color: var(--color-primary-main);
+      --color: var(--color-primary-main);
+
+      &:hover {
+        --background-color: var(--color-primary-main);
+        --border-color: var(--color-neutral-alpha-0);
+        --color: var(--color-neutral-50);
+      }
+
+      &.button--selected {
+        --background-color: var(--color-primary-main);
+        --border-color: var(--color-neutral-alpha-0);
+        --color: var(--color-neutral-50);
+      }
+
+      &.button--disabled {
+        --background-color: var(--size-surface-main);
+        --border-color: var(--color-neutral-300);
+        --color: var(--color-neutral-500);
+      }
+    }
+
+    &--tertiary {
+      --background-color: var(--color-surface-main);
+      --border-color: var(--color-primary-main);
+      --color: var(--color-primary-main);
+
+      &:hover {
+        --background-color: var(--color-primary-main);
+        --border-color: var(--color-neutral-alpha-0);
+        --color: var(--color-neutral-50);
+      }
+
+      &.button--selected {
+        --background-color: var(--color-primary-main);
+        --border-color: var(--color-neutral-alpha-0);
+        --color: var(--color-neutral-50);
+      }
+
+      &.button--disabled {
+        --background-color: var(--size-surface-main);
+        --border-color: var(--color-neutral-300);
+      }
+    }
+
+    &--error {
+      &:not(:focus) {
+        --background-color: var(--color-neutral-50);
+        --border-color: var(--color-notification-error-main);
+        --color: var(--color-notification-error-main);
+
+        &:hover {
+          --background-color: var(--color-notification-error-main);
+          --color: var(--color-neutral-50);
+        }
+      }
+    }
+
+    &--processing {
+      --background-color: var(--color-primary-100);
+      --color: var(--color-primary-main);
+    }
+
+    &--text {
+      --background-color: initial;
+      --border-color: var(--color-neutral-alpha-0);
+      --color: var(--color-primary-main);
+
+      &:hover {
+        --background-color: var(--color-primary-main);
+        --color: var(--color-neutral-50);
+      }
+
+      &.button--disabled {
+        --background-color: var(--color-neutral-alpha-0);
+        --border-color: var(--color-neutral-alpha-0);
+        --color: var(--color-neutral-500);
+      }
+
+      &.button--selected {
+        --background-color: var(--color-primary-main);
+        --border-color: var(--color-neutral-alpha-0);
+        --color: var(--color-neutral-50);
+      }
+    }
+
+    &--disabled {
+      &:not(.button--text) {
+        --background-color: var(--color-neutral-100);
+        --border-color: var(--color-neutral-100);
+        --color: var(--color-neutral-500);
+      }
+    }
+
+    &:focus-within {
+      --button-border-color: var(--color-primary-600);
+    }
+
+    //
+    // Button sizing
+    //
+
+    &--primary,
+    &--secondary {
+      height: calc(53 * var(--size-spacing-eight));
+      padding: 0 calc(var(--size-spacing-3) - var(--size-spacing-quarter));
+
+      &.button--processing {
+        padding: 0 var(--size-spacing-3);
+      }
+
+      &.button--small {
+        height: calc(5 * var(--size-spacing-1));
+
+        &.button--processing {
+          padding: 0 var(--size-spacing-2);
+        }
+      }
+    }
+
+    &--tertiary {
+      height: var(--size-spacing-4);
+      padding: 0 calc(var(--size-spacing-2) - var(--size-spacing-quarter));
+
+      &.button--processing {
+        padding: 0 var(--size-spacing-2);
+      }
+    }
+
+    &--text {
+      height: var(--size-spacing-4);
+      padding: 0 calc(var(--size-spacing-2) - var(--size-spacing-quarter));
+    }
+  }
+
+  //
+  // General CSS not specific to any button attribute
+  //
+
+  display: inline-block;
+  width: fit-content;
+  margin: calc(var(--size-spacing-quarter) + var(--size-spacing-half)) 0;
+
+  .button {
+    margin: 0;
+    align-items: center;
+    border-width: var(--size-border-width);
+    border-style: solid;
+    border-radius: var(--size-radius-interactive-large);
+    cursor: pointer;
+    display: flex;
+    font-family: var(--font-ui);
+    font-size: var(--font-size-button);
+    justify-content: center;
+    line-height: 1;
+    outline: none;
+    user-select: none;
+    white-space: nowrap;
+    width: inherit;
+
+    &--disabled {
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .icon {
+      margin-right: var(--size-spacing-1);
+    }
+
+    //
+    // Processing Button Animation
+    //
+
+    &--processing {
+      position: relative;
+      z-index: 0;
+      overflow: hidden;
+      border: none;
+      cursor: default;
+      pointer-events: none;
+
+      &::before {
+        content: '';
+        position: absolute;
+        z-index: -2;
+        top: 50%;
+        width: 200%;
+        height: 400%;
+        transform-origin: 50% 0;
+        animation: rotate 2s linear infinite;
+        border-radius: inherit;
+        background-color: var(--color-primary-main);
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        transform: translate3d(0, 0, 0);
+        left: var(--size-border-width);
+        top: var(--size-border-width);
+        width: calc(100% - calc(2 * var(--size-border-width)));
+        height: calc(100% - calc(2 * var(--size-border-width)));
+        background-color: var(--color-neutral-50);
+        border-radius: inherit;
+      }
+
+      &:focus::before {
+        background-color: var(--color-primary-600);
+      }
+    }
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
