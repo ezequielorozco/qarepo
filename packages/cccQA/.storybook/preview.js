@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { addDecorator } from "@storybook/react";
-import BrandLibrary from "../tokens/web/Enreach/tokens/token-dictionary";
+import BrandLibrary from "../tokens/index";
 import { defineCustomElements } from "../dist/loader";
 
 import "../dist/collection/global/main.css";
