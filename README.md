@@ -5,9 +5,7 @@ QA repository
 Install Node v16
 Install Yarn package manager.
 
-```preview
-<link href='https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable'>Link</link>
-```
+https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable
 
 # Installation
 
